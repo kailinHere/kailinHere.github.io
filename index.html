@@ -1,294 +1,673 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
 
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Steller landing page.">
-    <meta name="author" content="Devcrud">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kai Lin here!</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
-    <link rel="stylesheet" href="assets/css/steller.css">
+    <meta name="description" content="Chan Kai Lin">
+    <meta name="keywords" content="Portfolio, Kai Lin" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <!-- Body font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <!-- Navbar font -->
+
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inc/animations/css/animate.min.css">
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skin/cool-gray.css">
+
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target="#main-navbar">
+    <div class="page-loader"></div> <!-- Display loading image while page loads -->
+    <div class="body">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!--========== BEGIN HEADER ==========-->
+        <header id="header" class="header-main">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Fields</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End of page navibation -->
+            <!-- Begin Navbar -->
+            <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
 
-    <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h6 class="subtitle">hello,I'm</h6>
-                <h6 class="title">Kai Lin</h6>
-                <p>Software Engineer · UI Designer · Web Developer · App Developer</p>
+                <div class="container">
 
-                <div class="buttons pt-3">
-                    <a href="folder/Chan Kai Lin - Resume.pdf" target="_blank"><button
-                            class="btn btn-primary rounded">RESUME</button></a>
-                    <a href="folder/Chan Kai Lin - Portfolio.pdf" target="_blank"><button
-                            class="btn btn-dark rounded">PORTFOLIO</button></a>
-                </div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="index.html">kailin</a>
+                    </div>
 
-                <div class="socials mt-4">
-                    <a class="social-item" target="_blank" href="mailto:chankailin0411@gmail.com"><i
-                            class="ti-email"></i></a>
-                    <a class="social-item" target="_blank"
-                        href="https://instagram.com/kailinlah?igshid=OGQ5ZDc2ODk2ZA=="><i class="ti-instagram"></i></a>
-                    <a class="social-item" target="_blank" href="tel:+60122625285"><i class="ti-mobile"></i></a>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="page-scroll" href="body">Home</a></li>
+                            <li><a class="page-scroll" href="#about-section">About</a></li>
+                            <li><a class="page-scroll" href="#fields-section">Fields</a></li>
+                            <li><a class="page-scroll" href="#skills-section">Skills</a></li>
+                            <li><a class="page-scroll" href="#portfolio-section">Works</a></li>
+                            <li><a class="page-scroll" href="#contact-section">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+            <!-- End Navbar -->
 
-                </div>
-            </div>
-            <div class="img-holder">
-                <img src="assets/images/man.svg" alt="">
-            </div>
-        </div>
+        </header>
+        <!-- ========= END HEADER =========-->
 
-        <!-- Header-widget -->
-        <div class="widget">
-            <div class="widget-item">
-                <h2>Check out what I have</h2>
-                <p>About Me · Skills · Portfolio</p>
-            </div>
 
-        </div>
-    </header>
-    <!-- End of Page Header -->
 
-    <!-- About section -->
-    <section id="about" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="assets/images/profilePic.jpeg" alt="" class="img-thumbnail mb-4">
-                </div>
-                <div class="pl-md-4 col-md-9">
-                    <h6 class="title">Chan Kai Lin</h6>
-                    <p class="subtitle">Software Engineer · UI Designer · Web Developer · App Developer</p>
-                    <p style="text-align: justify;">
-                        Hello, I'm Chan Kai Lin, a dedicated student currently pursuing a Bachelor's Degree in Software
-                        Engineering at TARUMT. My journey in technology began with a Diploma in Computer Science at the
-                        same university. During my internship, I was drawn to the creative aspects of designing user
-                        interfaces and developing mobile apps, sparking a deep passion for technology, websites, and
-                        application development. My experience has fortified my proficiency in a range of programming
-                        languages and frameworks like ASP.NET, C#, HTML, CSS, Java, and more. I am driven by a strong
-                        enthusiasm to expand my knowledge and skills within this dynamic field, aiming to contribute
-                        meaningfully to the ever-evolving landscape of the industry.
-                    </p>
-                    <!-- <button class="btn btn-primary rounded mt-3">RESUME</button> -->
-                    <a href="folder/Chan Kai Lin - Resume.pdf" target="_blank"><button
-                            class="btn btn-primary rounded mt-3">RESUME</button></a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Service section -->
-    <section id="service" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Fields</h6>
-            <h6 class="section-title mb-4">What I Know & Do</h6>
-            <p class="mb-5 pb-4">You'll find the fields and aspects in which I possess knowledge and expertise here.</p>
+        <!-- Begin text carousel intro section -->
+        <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5"
+            style="background-image: url(img/slider-bg.jpg);">
 
-            <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-bar-chart"></i>
-                            <h5>Software Engineering</h5>
+            <div class="container">
+                <div class="caption text-center text-white" data-stellar-ratio="0.7">
+
+                    <div id="owl-intro-text" class="owl-carousel">
+                        <div class="item">
+                            <h1>Hello, I'm Kai Lin</h1>
+                            <p>Software Engineer · UI Designer · Web Developer · App Developer</p>
+                            <div class="extra-space-l"></div>
+                            <a class="btn btn-blank" href="folder/Chan Kai Lin - Resume.pdf" target="_blank"
+                                role="button">Resume</a> &nbsp;&nbsp;
+                            <a class="btn btn-blank" href="folder/Chan Kai Lin - Portfolio.pdf" target="_blank"
+                                role="button">Portfolio</a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-crown"></i>
-                            <h5>UI Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-desktop"></i>
-                            <h5>Web Development</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-mobile"></i>
-                            <h5>App Development</h5>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- End of Sectoin -->
 
-    <!-- Skills section -->
-    <section class="section" id="skills">
-        <div class="container text-center">
-            <h6 class="subtitle">Skills</h6>
-            <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">You'll discover the array of skills I possess here.</p>
+                    </div>
 
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h6 class="mb-3">ASP.NET & C#</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">HTML & CSS</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 92%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>92%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Java</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Oracle SQL</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
-                    </div>
-                </div><div class="col-sm-6">
-                    <h6 class="mb-3">Laravel & Flutter</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>60%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">UI/UX Design</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                </div> <!-- /.caption -->
+            </div> <!-- /.container -->
+
+        </section>
+        <!-- End text carousel intro section -->
+
+
+
+
+        <!-- Begin about section -->
+        <section id="about-section" class="page bg-style1">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <h2>About</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">little information about me</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- End of Skills sections -->
+            <!-- End page header-->
 
-    <!-- Portfolio section -->
-    <section id="portfolio" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Portfolio</h6>
-            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">You'll discover examples of the websites, applications, and UI designs I've created here.</p>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-1.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Internship Website</h5>
-                                <a href="folder/Chan Kai Lin - Portfolio.pdf#page=2" target="_blank"><i class="ti-zoom-in"></i></a>
+            <!-- Begin rotate box-1 -->
+            <div class="rotate-box-1-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                                <span class="rotate-box-icon"><i class="fa fa-graduation-cap"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Tech Academic Voyage</h4>
+                                    <p>TARUMT's journey: Diploma to pursuing Software Engineering Bachelor's, shaping my
+                                        path.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>School Website</h5>
-                                <a href="folder/Chan Kai Lin - Portfolio.pdf#page=8" target="_blank"><i class="ti-zoom-in"></i></a>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                                <span class="rotate-box-icon"><i class="fa fa-lightbulb-o"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Inspired by Innovation</h4>
+                                    <p>Internship sparked love for UI design, mobile app development, igniting my
+                                        passion.</p>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                                <span class="rotate-box-icon"><i class="fa fa-rocket"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Innovative Enthusiast</h4>
+                                    <p>LDriven to expand in the dynamic tech world, contributing to its evolution.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Life Beyond Tech</h4>
+                                    <p>Movies, baking, archery, squash — finding balance and joy outside coding realms.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+            <!-- End rotate box-1 -->
+
+
+
+            <!-- Begin page header-->
+
+        </section>
+        <!-- End about section -->
+
+
+        <!-- Begin Fields -->
+        <section id="fields-section" class="page text-center">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>Fields</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">what I know</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-3.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Sports Equipment Website</h5>
-                                <a href="folder/Chan Kai Lin - Portfolio.pdf#page=13" target="_blank"><i class="ti-zoom-in"></i></a>
+            </div>
+            <!-- End page header-->
+
+            <!-- Begin roatet box-2 -->
+            <div class="rotate-box-2-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                                <span class="rotate-box-icon"><i class="fa fa-code"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Software Engineering</h4>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                                <span class="rotate-box-icon"><i class="fa fa-paint-brush"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>UI Design</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                                <span class="rotate-box-icon"><i class="fa fa-laptop"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Web Development</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                                <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                                <div class="rotate-box-info">
+                                    <h4>Mobile App Development</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+            <!-- End rotate-box-2 -->
+        </section>
+        <!-- End Fields -->
+
+        <!-- Begin Skills -->
+        <section id="skills-section" class="page text-center">
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>Skills</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">why choose me</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-5.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Habit Formation App</h5>
-                                <a href="folder/Chan Kai Lin - Portfolio.pdf#page=17" target="_blank"><i class="ti-zoom-in"></i></a>
+            </div>
+            <!-- End page header-->
+
+            <!-- Begin Our Skills -->
+            <div class="our-skills">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
+                                <div class="progress-lebel">
+                                    <h6>ASP.NET & C#</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 90%;">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-6.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Bike Renting App</h5>
-                                <a href="folder/Chan Kai Lin - Portfolio.pdf#page=20" target="_blank"><i class="ti-zoom-in"></i></a>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+                                <div class="progress-lebel">
+                                    <h6>HTML & CSS</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 92%;">
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInLeft" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>Java</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 85%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInRight" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>Oracle SQL</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInLeft" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>Laravel & Flutter</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 50%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="skill-bar wow slideInRight" data-wow-delay="0.4s">
+                                <div class="progress-lebel">
+                                    <h6>UI/UX Design</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div>
+            <!-- End Our Skill -->
+        </section>
+        <!-- End Skills -->
+
+
+        <!-- Begin Portfolio -->
+        <section id="portfolio-section" class="page bg-style1">
+            <div class="container2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio">
+                            <!-- Begin page header-->
+                            <div class="page-header-wrapper">
+                                <div class="container">
+                                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                        <h2>My Works</h2>
+                                        <div class="devider"></div>
+                                        <p class="subtitle">what I have done</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End page header-->
+
+                            <div class="container contact wow bounceInRight" data-wow-delay="0.4s">
+                                <div class="image-container">
+                                    <button class="image-item">
+                                        <img src="./img/portfolio/folio-1.jpg" alt="">
+                                        <div class="image-text pBtn1">
+                                            <span>Internship Website</span>
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </button>
+                                    <button class="image-item">
+                                        <img src="./img/portfolio/folio-2.jpg" alt="">
+                                        <div class="image-text pBtn2">
+                                            <span>School Website</span>
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </button>
+                                    <button class="image-item">
+                                        <img src="./img/portfolio/folio-3.jpg" alt="">
+                                        <div class="image-text pBtn3">
+                                            <span>Sports Equipment Website</span>
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </button>
+                                    <button class="image-item">
+                                        <img src="./img/portfolio/folio-5.jpg" alt="">
+                                        <div class="image-text pBtn4">
+                                            <span>Habit Formation App</span>
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </button>
+                                    <button class="image-item">
+                                        <img src="./img/portfolio/folio-6.jpg" alt="">
+                                        <div class="image-text pBtn5">
+                                            <span>Bike Renting App</span>
+                                            <i class="fa fa-search-plus"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- portfolio content -->
+                            <!-- internship website -->
+                            <div class="intern">
+                                <div class="internClose"><i class="fa fa-times"></i></div>
+                                <div class="internSlider">
+                                    <div class="internImages">
+                                        <input type="radio" name="slide" id="internR1" checked>
+                                        <input type="radio" name="slide" id="internR2">
+                                        <input type="radio" name="slide" id="internR3">
+                                        <input type="radio" name="slide" id="internR4">
+                                        <input type="radio" name="slide" id="internR5">
+
+                                        <img src="img/intern/i1.png" class="i1" alt="">
+                                        <img src="img/intern/i2.png" class="i2" alt="">
+                                        <img src="img/intern/i3.png" class="i3" alt="">
+                                        <img src="img/intern/i4.png" class="i4" alt="">
+                                        <img src="img/intern/i5.png" class="i5" alt="">
+                                    </div>
+                                    <div class="internDots">
+                                        <label for="internR1"></label>
+                                        <label for="internR2"></label>
+                                        <label for="internR3"></label>
+                                        <label for="internR4"></label>
+                                        <label for="internR5"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- school website -->
+                            <div class="school">
+                                <div class="schoolClose"><i class="fa fa-times"></i></div>
+                                <div class="schoolSlider">
+                                    <div class="schoolImages">
+                                        <input type="radio" name="slide" id="schoolR1" checked>
+                                        <input type="radio" name="slide" id="schoolR2">
+                                        <input type="radio" name="slide" id="schoolR3">
+                                        <input type="radio" name="slide" id="schoolR4">
+                                        <input type="radio" name="slide" id="schoolR5">
+
+                                        <img src="img/school/c1.png" class="c1" alt="">
+                                        <img src="img/school/c2.png" class="c2" alt="">
+                                        <img src="img/school/c3.png" class="c3" alt="">
+                                        <img src="img/school/c4.png" class="c4" alt="">
+                                        <img src="img/school/c5.png" class="c5" alt="">
+                                    </div>
+                                    <div class="schoolDots">
+                                        <label for="schoolR1"></label>
+                                        <label for="schoolR2"></label>
+                                        <label for="schoolR3"></label>
+                                        <label for="schoolR4"></label>
+                                        <label for="schoolR5"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- sports website -->
+                            <div class="sport">
+                                <div class="sportClose"><i class="fa fa-times"></i></div>
+                                <div class="sportSlider">
+                                    <div class="sportImages">
+                                        <input type="radio" name="slide" id="sportR1" checked>
+                                        <input type="radio" name="slide" id="sportR2">
+                                        <input type="radio" name="slide" id="sportR3">
+                                        <input type="radio" name="slide" id="sportR4">
+                                        <input type="radio" name="slide" id="sportR5">
+
+                                        <img src="img/sport/s1.png" class="s1" alt="">
+                                        <img src="img/sport/s2.png" class="s2" alt="">
+                                        <img src="img/sport/s3.png" class="s3" alt="">
+                                        <img src="img/sport/s4.png" class="s4" alt="">
+                                        <img src="img/sport/s5.png" class="s5" alt="">
+                                    </div>
+                                    <div class="sportDots">
+                                        <label for="sportR1"></label>
+                                        <label for="sportR2"></label>
+                                        <label for="sportR3"></label>
+                                        <label for="sportR4"></label>
+                                        <label for="sportR5"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- habit formation app -->
+                            <div class="habit">
+                                <div class="habitClose"><i class="fa fa-times"></i></div>
+                                <div class="habitSlider">
+                                    <div class="habitImages">
+                                        <input type="radio" name="slide" id="habitR1" checked>
+                                        <input type="radio" name="slide" id="habitR2">
+                                        <input type="radio" name="slide" id="habitR3">
+                                        <input type="radio" name="slide" id="habitR4">
+                                        <input type="radio" name="slide" id="habitR5">
+
+                                        <img src="img/habit/h1.png" class="h1" alt="">
+                                        <img src="img/habit/h2.png" class="h2" alt="">
+                                        <img src="img/habit/h3.png" class="h3" alt="">
+                                        <img src="img/habit/h4.png" class="h4" alt="">
+                                        <img src="img/habit/h5.png" class="h5" alt="">
+                                    </div>
+                                    <div class="habitDots">
+                                        <label for="habitR1"></label>
+                                        <label for="habitR2"></label>
+                                        <label for="habitR3"></label>
+                                        <label for="habitR4"></label>
+                                        <label for="habitR5"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- bike renting app -->
+                            <div class="bike">
+                                <div class="bikeClose"><i class="fa fa-times"></i></div>
+                                <div class="bikeSlider">
+                                    <div class="bikeImages">
+                                        <input type="radio" name="slide" id="bikeR1" checked>
+                                        <input type="radio" name="slide" id="bikeR2">
+                                        <input type="radio" name="slide" id="bikeR3">
+                                        <input type="radio" name="slide" id="bikeR4">
+                                        <input type="radio" name="slide" id="bikeR5">
+
+                                        <img src="img/bike/b1.png" class="b1" alt="">
+                                        <img src="img/bike/b2.png" class="b2" alt="">
+                                        <img src="img/bike/b3.png" class="b3" alt="">
+                                        <img src="img/bike/b4.png" class="b4" alt="">
+                                        <img src="img/bike/b5.png" class="b5" alt="">
+                                    </div>
+                                    <div class="bikeDots">
+                                        <label for="bikeR1"></label>
+                                        <label for="bikeR2"></label>
+                                        <label for="bikeR3"></label>
+                                        <label for="bikeR4"></label>
+                                        <label for="bikeR5"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                const pBtn1 = document.querySelector('.pBtn1');
+                                const intern = document.querySelector('.intern');
+                                const internClose = document.querySelector('.internClose');
+                                pBtn1.addEventListener('click', function () {
+                                    intern.style.display = 'block';
+                                });
+                                internClose.addEventListener('click', function () {
+                                    intern.style.display = 'none';
+                                });
+
+                                const pBtn2 = document.querySelector('.pBtn2');
+                                const school = document.querySelector('.school');
+                                const schoolClose = document.querySelector('.schoolClose');
+                                pBtn2.addEventListener('click', function () {
+                                    school.style.display = 'block';
+                                });
+                                schoolClose.addEventListener('click', function () {
+                                    school.style.display = 'none';
+                                });
+
+                                const pBtn3 = document.querySelector('.pBtn3');
+                                const sport = document.querySelector('.sport');
+                                const sportClose = document.querySelector('.sportClose');
+                                pBtn3.addEventListener('click', function () {
+                                    sport.style.display = 'block';
+                                });
+                                sportClose.addEventListener('click', function () {
+                                    sport.style.display = 'none';
+                                });
+
+                                const pBtn4 = document.querySelector('.pBtn4');
+                                const habit = document.querySelector('.habit');
+                                const habitClose = document.querySelector('.habitClose');
+                                pBtn4.addEventListener('click', function () {
+                                    habit.style.display = 'block';
+                                });
+                                habitClose.addEventListener('click', function () {
+                                    habit.style.display = 'none';
+                                });
+
+                                const pBtn5 = document.querySelector('.pBtn5');
+                                const bike = document.querySelector('.bike');
+                                const bikeClose = document.querySelector('.bikeClose');
+                                pBtn5.addEventListener('click', function () {
+                                    bike.style.display = 'block';
+                                });
+                                bikeClose.addEventListener('click', function () {
+                                    bike.style.display = 'none';
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- End portfolio -->
 
-        </div>
-    </section>
-    <!-- End of portfolio section -->
 
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- steller js -->
-    <script src="assets/js/steller.js"></script>
+        <!-- Begin contact section -->
+        <section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5"
+            style="background-image: url(img/contact.jpg);">
+            <div class="cover"></div>
+
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>Contacts</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">contact me here</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+
+            <ul class="social-list">
+                <li> <a target="_blank" href="tel:+60122625285" class="rotate-box-1 square-icon text-center wow zoomIn"
+                        data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-mobile"></i></span></a></li>
+                <li> <a target="_blank" href="mailto:chankailin0411@gmail.com"
+                        class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span
+                            class="rotate-box-icon"><i class="fa fa-envelope"></i></span></a></li>
+                <li> <a target="_blank" href="https://instagram.com/kailinlah?igshid=OGQ5ZDc2ODk2ZA=="
+                        class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span
+                            class="rotate-box-icon"><i class='bx bxl-instagram-alt'
+                                style="font-size: 25px; text-align: center; vertical-align: middle;"></i></span></a>
+                </li>
+            </ul>
+            <div class="item" style="display: flex; justify-content: center; margin-top: 20px;">
+                <a class="btn btn-blank" href="folder/Chan Kai Lin - Resume.pdf" target="_blank"
+                    role="button">Resume</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-blank" href="folder/Chan Kai Lin - Portfolio.pdf" target="_blank"
+                    role="button">Portfolio</a>
+            </div>
+        </section>
+        <!-- End contact section -->
+
+        <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+
+    </div><!-- body ends -->
+
+
+
+
+    <!-- Plugins JS -->
+    <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+    <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+    <script src="inc/animations/js/wow.min.js"></script>
+    <script src="inc/waypoints.min.js"></script>
+    <script src="inc/isotope.pkgd.min.js"></script>
+    <script src="inc/classie.js"></script>
+    <script src="inc/jquery.easing.min.js"></script>
+    <script src="inc/jquery.counterup.min.js"></script>
+    <script src="inc/smoothscroll.js"></script>
+
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
 
 </body>
+
 
 </html>
